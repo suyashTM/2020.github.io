@@ -1,0 +1,38 @@
+<div align="center" class="footer" style="color:black" >
+                <br>
+                <h1>Feed us Back</h1>
+                <h2>Contact- 9999999999</h2>
+				<h4>* You must be logged in to your Gmail account before filling in the form. *</h4>
+                <h5>Write us a Mail</h5>
+                <br>
+                <form action="mailto:jsssofficial@gmail.com">
+                    <input class="mail" type="email" placeholder="Email Id" size="100" required>
+                    <br><br>
+                    <input class="mail" type="text" placeholder="Name" size="100" required>
+                    <br>
+                    <br>
+                    <textarea class="mail" placeholder="Message" rows="7" cols="100" noresize required></textarea>
+                    <br>
+                    <br>
+                    <a class="send" href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&cc=jsmsjofficial@gmail.com&su=SUBJECT&body=BODY" style="background: #ffe5b4; font-size:30px; border:5px; border-style:none; padding-left:10px padding-right:10px; border-color:white; border-radius: 5px;" target="_blank">Send</a>
+                </form>
+            </div>
+			
+			
+			<?php
+
+if($_POST["submit"]) {
+    $recipient="jsmsjofficial@gmail.com";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>

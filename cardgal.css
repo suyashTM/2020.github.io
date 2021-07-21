@@ -1,0 +1,146 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #EEEEEE;
+  overflow: hidden;
+  height:55px;
+  -webkit-box-shadow: 1px 12px 9px 0px rgba(0,0,0,0.44);
+  -moz-box-shadow: 1px 12px 9px 0px rgba(0,0,0,0.44);
+  box-shadow: 1px 12px 9px 0px rgba(0,0,0,0.44);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 5px;
+  border-radius:7px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:999999;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #999999;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #666666;
+  color: white;
+}
+/*three lines on top*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: black;
+}	
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.log{
+	position:absolute;
+	right:3px;
+	padding: 2px 0px 0px 0px;
+}
+hr.line1 {
+  border-top: 5px solid #B7B7B7;
+}
+.c11{
+	background-color:#43e0d8;
+	-webkit-box-shadow: 2px 2px 38px 11px rgba(67,224,216,1);
+	-moz-box-shadow: 2px 2px 38px 11px rgba(67,224,216,1);
+	box-shadow: 2px 2px 38px 11px rgba(67,224,216,1);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 0px solid #000000;
+}
+.c22{
+	background-color:#a449d1;
+	-webkit-box-shadow: 2px 2px 38px 11px rgba(164,73,209,1);
+	-moz-box-shadow: 2px 2px 38px 11px rgba(164,73,209,1);
+	box-shadow: 2px 2px 38px 11px rgba(164,73,209,1);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 0px solid #000000;
+}
+.c33{
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 0px solid #000000;	
+	-webkit-box-shadow: 2px 2px 38px 11px rgba(63,204,124,1);
+	-moz-box-shadow: 2px 2px 38px 11px rgba(63,204,124,1);
+	box-shadow: 2px 2px 38px 11px rgba(63,204,124,1);
+}
+.c44{
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 0px solid #000000;	
+	-webkit-box-shadow: 0px 0px 38px 11px rgba(212,178,76,1);
+	-moz-box-shadow: 0px 0px 38px 11px rgba(212,178,76,1);
+	box-shadow: 0px 0px 38px 11px rgba(212,178,76,1);
+}
+.c55{
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 0px solid #000000;	
+	-webkit-box-shadow: 0px 0px 38px 11px rgba(212,76,76,1);
+	-moz-box-shadow: 0px 0px 38px 11px rgba(212,76,76,1);
+	box-shadow: 0px 0px 38px 11px rgba(212,76,76,1);
+}
+.c66{
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 0px solid #000000;		
+	-webkit-box-shadow: 0px 0px 38px 11px rgba(73,234,245,1);
+-moz-box-shadow: 0px 0px 38px 11px rgba(73,234,245,1);
+box-shadow: 0px 0px 38px 11px rgba(73,234,245,1);
+}
+.end{
+	background-color:#EEEEEE;
+	height:20px;
+	margin-top:10px;
+	color:black;
+	font-size:14px;
+	padding-top:3px;
+}
